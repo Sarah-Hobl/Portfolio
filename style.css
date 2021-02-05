@@ -1,0 +1,451 @@
+/*--------INITIALISATION DE LA PAGE------*/
+
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 18px;
+    font-family: 'Lucida Grande', sans-serif;
+    background-image: linear-gradient(rgba(105, 105, 105, 0.7), rgba(129, 128, 128, 0.7)),url(/img/fondherbe\ copie.JPG);
+    background-attachment: fixed;
+}
+.main-nav li{
+    display: inline-block;
+    padding-left: 60px;
+
+}
+.menu{
+    height: 40px;
+    background-color: #80CFE9;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 15px;
+    margin-top: 60px;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    box-shadow: 3px 3px 3px 3px #647986;
+    opacity: 80%;
+    
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+
+.zoom{
+    transition: transform .2s ;  
+}
+.zoom:hover{
+    transform: scale(1.5);
+}
+.ban{
+    height: 400px;
+    width:100% ;
+    background-image: url(img/bande.jpg);
+    
+    opacity: 80%;
+
+}
+
+.rond{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+   
+}
+.poupi{
+    padding-top: 50px;
+    padding-left: 70px;
+}
+.sh{
+    margin-top: -300px;
+    margin-left:420px;
+
+}
+.sh h1{
+    color: #ffffff;
+    font-size: 250%;
+}
+.sh p{
+    color: #ffffff;
+    font-size: 120%;
+}
+.projet{
+    height: 280px;
+    background-color: #B5D8EE;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 15px;
+    margin-top: 340px;
+    box-shadow: 3px 3px 3px 3px #647986;
+   
+}
+
+.projet h2{
+    padding-top: 5%;
+    margin-bottom: 20px;
+    padding-left: 3%;
+    padding-right: 3%;
+    color: #ffffff;
+}
+.projet p{
+    margin-bottom: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: #ffffff;
+    line-height: 170%;
+}
+.etudes{
+    height: 370px;
+    width: 37%;
+    float: left;
+    background-color: #D3DFEB;
+    text-align: left;
+    margin-left: 10%;
+    border-radius: 15px;
+    margin-top: 50px;
+    box-shadow: 3px 3px 3px 3px #647986;
+}
+.etudes h2{
+    padding-top: 6%;
+    margin-bottom: 30px;
+    padding-left: 3%;
+    padding-right: 3%;
+    color: #ffffff;
+}
+.etudes p{
+    margin-bottom: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: #ffffff;
+    line-height: 155%;
+
+}
+.CV{
+    height: 730px;
+    width: 37%;
+    float: right;
+    background-color: #D3DFEB;
+    text-align: left;
+    margin-right: 10%;
+    border-radius: 15px;
+    margin-top: 50px;
+    box-shadow: 3px 3px 3px 3px #647986;
+}
+.CV h2{padding-top: 6%;
+    margin-bottom: 30px;
+    padding-left: 3%;
+    padding-right: 3%;
+    color: #ffffff;
+}
+.CV p{
+    margin-bottom: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: #ffffff;
+    line-height: 190%;
+
+}
+.competences{
+    height: 550px;
+    width: 37%;
+    float: left;
+    background-color: #DAE0EC;
+    text-align: center;
+    margin-right: 10%;
+    border-radius: 15px;
+    margin-top: -23%;
+    margin-left: 10%;
+    box-shadow: 3px 3px 3px 3px #647986;
+
+}
+.competences h2{padding-top: 6%;
+    margin-bottom: 30px;
+    padding-left: 3%;
+    padding-right: 3%;
+    color: #ffffff;
+}
+.competences p{
+    margin-bottom: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: #ffffff;
+    line-height: 160%;
+}
+.video{
+    height: 430px;
+    width: 37%;
+    float: right;
+    background-color:#DAE0EC;
+    text-align: center;
+    margin-right: 10%;
+    border-radius: 15px;
+    margin-top: -12%;
+    box-shadow: 3px 3px 3px 3px #647986;
+}
+.video h2{
+  
+    margin-bottom: 30px;
+    padding-left: 3%;
+    padding-right: 3%;
+    color: #ffffff;
+    padding-top: 6%; 
+    
+}
+.photospassion{
+    height: 460px;
+    width: 37%;
+    float: right;
+    background-color: #E3E3EF;
+    text-align: center;
+    margin-right: 10%;
+    border-radius: 15px;
+    margin-top: 4%;
+    margin-left: 10%;
+    box-shadow: 3px 3px 3px 3px #647986;
+
+}
+.photospassion h2{
+    padding-top: 6%;
+    margin-bottom: 30px;
+    padding-left: 3%;
+    padding-right: 3%;
+    color: #ffffff;
+}
+.photospassion p{
+    margin-bottom: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: #ffffff;
+    line-height: 160%;
+
+}
+/*.image1{
+    width: 90%;
+    margin-top: 10%;
+}*/
+
+.diapo{
+    width: 90%;
+    margin-top: 1%;
+    border-radius: 10px;
+}
+rea{
+    
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.carousel{
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, .3);
+	overflow: hidden;
+	height: 300px;
+    width: 450px;
+    margin-top: 10%;
+    margin-left: 3%;
+}
+.image-container{
+	display: flex;
+	transition: transform .5s ease-in-out;
+	transform: translateX(0);
+
+}
+.carousel img{
+	object-fit: cover;
+	height: 280px;
+	width: 470px;
+}
+
+
+.passions{
+    height: 490px;
+    width: 37%;
+    float: left;
+    background-color: #E3E3EF;
+    text-align: center;
+    margin-right: 10%;
+    border-radius: 15px;
+    margin-left: 10%;
+    margin-top: -47%;
+    box-shadow: 3px 3px 3px 3px #647986;
+   
+}
+.passions h2{
+    padding-top: 6%;
+    margin-bottom: 30px;
+    padding-left: 3%;
+    padding-right: 3%;
+    color: #ffffff;
+}
+.passions p{
+    margin-bottom: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: #ffffff;
+    line-height: 180%;
+}
+
+
+.photosvoyages{
+    height: 500px;
+    width: 37%;
+    float: left;
+    background-color: #EEE7EF;
+    text-align: center;
+    margin-right: 10%;
+    border-radius: 15px;
+    margin-top: -2%;
+    margin-left: 10%;
+    box-shadow: 3px 3px 3px 3px #647986;
+
+}
+.photosvoyages h2{
+    padding-top: 6%;
+    margin-bottom: 30px;
+    padding-left: 3%;
+    padding-right: 3%;
+    color: #ffffff;
+}
+.photosvoyages p{
+    margin-bottom: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: #ffffff;
+    line-height: 160%;
+}
+.rome{
+    width: 90%;
+    margin-top: 3%;
+}
+
+.voyages{
+    height: 370px;
+    width: 37%;
+    float: right;
+    background-color: #EEE7EF;
+    text-align: center;
+    margin-right: 10%;
+    border-radius: 15px;
+    margin-top: -27%;
+    box-shadow: 3px 3px 3px 3px #647986;
+}
+.voyages h2{padding-top: 6%;
+    margin-bottom: 30px;
+    padding-left: 3%;
+    padding-right: 3%;
+    color: #ffffff;
+}
+.voyages p{
+    margin-bottom: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: #ffffff;
+    line-height: 180%;
+}
+
+.bandfooter{
+    height: 400px;
+    width:100% ;
+    background-image: url(img/bandfooter.jpg);
+    
+    margin-top: 180%;
+    opacity: 80%;
+
+}
+
+.main-nav2 li{
+    display: inline-block;
+    padding-left: 60px;
+
+}
+.menu2{
+    height: 40px;
+    background-color: #EDE6EE;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 15px;
+    margin-top: -5%;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    float: left; 
+    box-shadow: 3px 3px 3px 3px #647986;
+
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+
+
+.contact h3{
+    float: right;
+    padding-top: 5%;
+    margin-bottom: 20px;
+    padding-left: 15%;
+    padding-right: 28.5%;
+    color: #ffffff;
+}
+.contact p{
+    float: right;
+    margin-bottom: 40px;
+    padding-left: 50%;
+    padding-right: 15%;
+    color: #ffffff;
+    line-height: 170%;
+    margin-top: 50px;
+}
+.reseaux h3{
+    float: left;
+    padding-top: 5%;
+    margin-bottom: 20px;
+    padding-left: 10%;
+    padding-right: 2%;
+    color: #ffffff;
+}
+.reseaux p{
+    float: left;
+    margin-bottom: 4px;
+    margin-left:-12%;
+    padding-right: 5%;
+    color: #ffffff;
+    line-height: 170%;
+    margin-top: 170px;
+}
+
+.insta{
+    float: left;
+    width: 34px;
+    margin-bottom: 20%;
+    margin-left:-9%;
+    margin-top: 170px; 
+  
+	transform: scale(1);
+	transition: .3s ease-in-out;
+}
+.insta:hover{
+   
+	transform: scale(1.3);
+}
+.fb{
+    float: left;
+    width: 16px;
+    margin-bottom: 20%;
+    margin-left:-8.5%;
+    margin-top: 240px; 
+	transform: scale(1);
+	transition: .3s ease-in-out;
+}
+.fb:hover{
+  
+	transform: scale(1.3);
+}

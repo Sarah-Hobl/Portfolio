@@ -9,7 +9,7 @@
 html{
     font-size: 18px;
     font-family: 'Lucida Grande', sans-serif;
-    background-image: linear-gradient(rgba(105, 105, 105, 0.7), rgba(129, 128, 128, 0.7)),url(/img/fondherbe\ copie.JPG);
+    background-image: linear-gradient(rgba(105, 105, 105, 0.7), rgba(129, 128, 128, 0.7)),url(https://github.com/Sarah-Hobl/Portfolio/blob/main/img/fondherbecopie.JPG?raw=true);
     background-attachment: fixed;
 }
 .main-nav li{

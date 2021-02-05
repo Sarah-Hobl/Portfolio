@@ -1,0 +1,26 @@
+
+/*BIG TABLETS TO 12000OX (WIDTH SMALLER THAN 1140PX ROW)*/
+@media only screen and (max-width: 767px){
+
+}
+
+/*SMALL TABLETS TO BIG TABLETS FROM 768PX TO 1023PX*/
+@media only screen and (max-width: 1023px){
+	
+	
+}
+
+/*SMALL PHONES TO SMALL TABLETS FROM 481PX TO 767PX*/
+@media only screen and (max-width: 767px){
+	
+}
+
+/*SMALL PHONES FROM 0 TO 480PX*/
+@media only screen and (max-width: 480px){
+	html{
+		font-size: 10px ;
+} 
+.menu{
+	max-width: 50%;
+}
+}
